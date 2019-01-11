@@ -16,6 +16,7 @@ Pre-requisites
 References
 ---------------------
 - https://developer.android.com/jetpack/
+- https://developer.android.com/studio/write/layout-editor
 - https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
 
 
