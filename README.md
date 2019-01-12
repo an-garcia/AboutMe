@@ -4,7 +4,7 @@ About Me
 Android application to learn Android Jetpack with Kotlin. Layouts.
 This project is based on [Course](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012)
 
-![Scheme](/readmeImages/Screenshot_1547163064.png)
+![Scheme](/readmeImages/Screenshot_1547330821.png)
 
 
 Pre-requisites
