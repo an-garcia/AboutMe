@@ -17,6 +17,7 @@ References
 ---------------------
 - https://developer.android.com/jetpack/
 - https://developer.android.com/studio/write/layout-editor
+- https://developer.android.com/topic/libraries/data-binding/start
 - https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012
 
 
