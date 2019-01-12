@@ -14,9 +14,13 @@ class MainActivity : AppCompatActivity() {
     // Name of the object is derived from the name of the activity or fragment.
     private lateinit var binding: ActivityMainBinding
 
+    // Instance of MyName data class.
+    private val myName: MyName = MyName("Aleks Haecky")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding.myName = myName
 
         binding.doneButton.setOnClickListener {
             addNickname(it)
@@ -27,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.apply {
             nicknameText.text = binding.nicknameEdit.text
+            myName?.nickname = nicknameEdit.text.toString()
             invalidateAll()
             nicknameEdit.visibility = View.GONE
             view.visibility = View.GONE
